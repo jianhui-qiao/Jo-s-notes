@@ -5,7 +5,6 @@ export default defineConfig({
   title: "Joe 的文档与笔记",
   description: "文档与笔记",
   base: "/Jo-s-notes/docs",
-  outDir: "./docs",
   themeConfig: {
     logo: '/react.svg',
     search: {
