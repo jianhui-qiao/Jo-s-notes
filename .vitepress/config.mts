@@ -4,10 +4,10 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Joe 的文档与笔记",
   description: "文档与笔记",
-  base: "/Jo-s-notes/",
+  base: "/Jo-s-notes/docs",
   outDir: "./docs",
   themeConfig: {
-    logo: '/public/react.svg',
+    logo: '/react.svg',
     search: {
       provider: 'local',
     },
@@ -20,46 +20,46 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首页', link: '/' },
-      { text: 'Vue', link: '/document/vue/basic/introduce' },
-      { text: 'React', link: '/document/react/basic/introduce' },
-      { text: 'NodeJS', link: '/document/node/basic/introduce' },
-      { text: 'TypeScript', link: '/document/typescript/basic/introduce' },
+      // { text: 'Vue', link: '/document/vue/basic/introduce' },
+      // { text: 'React', link: '/document/react/basic/introduce' },
+      // { text: 'NodeJS', link: '/document/node/basic/introduce' },
+      // { text: 'TypeScript', link: '/document/typescript/basic/introduce' },
       { text: '性能优化', link: '/document/performance/uploading/introduce' },
     ],
 
     sidebar: {
-      '/document/vue/': [
-        {
-          text: 'Vue',
-          items: [
-            { text: 'Vue基本介绍', link: '/document/vue/basic/introduce' },
-          ]
-        },
-      ],
-      '/document/react/': [
-        {
-          text: 'React',
-          items: [
-            { text: 'React基本介绍', link: '/document/react/basic/introduce' },
-          ]
-        },
-      ],
-      '/document/node/': [
-        {
-          text: 'NodeJS',
-          items: [
-            { text: 'NodeJS基本介绍', link: '/document/node/basic/introduce' },
-          ]
-        }
-      ],
-      '/document/typescript/': [
-        {
-          text: 'NodeJS',
-          items: [
-            { text: 'TypeScript基本介绍', link: '/document/typescript/basic/introduce' },
-          ]
-        }
-      ],
+      // '/document/vue/': [
+      //   {
+      //     text: 'Vue',
+      //     items: [
+      //       { text: 'Vue基本介绍', link: '/document/vue/basic/introduce' },
+      //     ]
+      //   },
+      // ],
+      // '/document/react/': [
+      //   {
+      //     text: 'React',
+      //     items: [
+      //       { text: 'React基本介绍', link: '/document/react/basic/introduce' },
+      //     ]
+      //   },
+      // ],
+      // '/document/node/': [
+      //   {
+      //     text: 'NodeJS',
+      //     items: [
+      //       { text: 'NodeJS基本介绍', link: '/document/node/basic/introduce' },
+      //     ]
+      //   }
+      // ],
+      // '/document/typescript/': [
+      //   {
+      //     text: 'NodeJS',
+      //     items: [
+      //       { text: 'TypeScript基本介绍', link: '/document/typescript/basic/introduce' },
+      //     ]
+      //   }
+      // ],
       '/document/performance/': [
         {
           text: '性能优化',

@@ -11,11 +11,11 @@ hero:
       text: 前端性能优化
       link: /document/performance/uploading/introduce
   image:
-    src: /public/react.svg
+    src: /react.svg
 
 features:
   - icon:
-      src: /public/react.svg
+      src: /react.svg
     title: Simple and minimal, always
     details: Lorem ipsum... 
 ---
